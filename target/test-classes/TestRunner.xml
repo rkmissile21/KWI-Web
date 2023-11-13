@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Test Suite" parallel="false">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <parameter name="platform" value="windows"/>
+    <parameter name="platformVersion" value="10"/>
+
+    <parameter name="cloud" value="false"/>
+    <parameter name="envName" value="saucelabs"/>
+    <parameter name="browserVersion" value="86.0"/>
+
+
+    <test name="Automation tests">
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <exclude name="sanity"/>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="com.kwi.HomePageValidations"/>
+            <class name="com.kwi.LoyaltyPageValidations"/>
+        </classes>
+    </test>
+</suite>

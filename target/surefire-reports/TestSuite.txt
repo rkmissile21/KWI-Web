@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1.545 s <<< FAILURE! - in TestSuite
+TC01_ValidateTheTitleOfThePage(com.kwi.HomePageValidations)  Time elapsed: 0.155 s  <<< FAILURE!
+java.lang.RuntimeException: Error validating the title: null
+	at com.kwi.HomePageValidations.TC01_ValidateTheTitleOfThePage(HomePageValidations.java:19)
+
+TC02_ValidateAllInOneOmnichannelSolutionText(com.kwi.HomePageValidations)  Time elapsed: 0.119 s  <<< FAILURE!
+java.lang.ExceptionInInitializerError
+	at com.kwi.HomePageValidations.TC02_ValidateAllInOneOmnichannelSolutionText(HomePageValidations.java:24)
+Caused by: java.lang.NullPointerException
+	at com.kwi.HomePageValidations.TC02_ValidateAllInOneOmnichannelSolutionText(HomePageValidations.java:24)
+
+TC03_ValidateContactInfo(com.kwi.HomePageValidations)  Time elapsed: 0.078 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: Could not initialize class com.kwi.report.ExtentTestManager
+	at com.kwi.HomePageValidations.TC03_ValidateContactInfo(HomePageValidations.java:29)
+
+TC04_NavigateToPlatformAndServicesPage(com.kwi.HomePageValidations)  Time elapsed: 0.072 s  <<< FAILURE!
+java.lang.RuntimeException: Error clicking on Platform & Services: null
+	at com.kwi.HomePageValidations.TC04_NavigateToPlatformAndServicesPage(HomePageValidations.java:34)
+
+TC01_ValidateGetMoreControl(com.kwi.LoyaltyPageValidations)  Time elapsed: 0.081 s  <<< FAILURE!
+java.lang.RuntimeException: Error during mouse hover on Platform & Services: null
+	at com.kwi.LoyaltyPageValidations.TC01_ValidateGetMoreControl(LoyaltyPageValidations.java:22)
+

@@ -1,0 +1,14 @@
+com\kwi\data\Constant.class
+com\kwi\base\TestBase.class
+com\kwi\pages\EBooksFormPage.class
+com\kwi\pages\LoyaltyPage.class
+com\kwi\base\PDFUtil.class
+com\kwi\pages\EBooksPage.class
+com\kwi\report\ExtentManager.class
+com\kwi\report\ExtentTestManager.class
+com\kwi\base\ConnectDB.class
+com\kwi\base\ExcelUtils.class
+com\kwi\pages\HomePage.class
+com\kwi\data\DataProviders.class
+com\kwi\base\Utilities.class
+com\kwi\pages\PlatformServices.class
