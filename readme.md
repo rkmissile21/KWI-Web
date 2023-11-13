@@ -37,13 +37,13 @@ Ensure you have the following software installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/selenium-test-automation.git
+   git clone https://github.com/rkmissile21/KWI-Web.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd selenium-test-automation
+   cd KWI-Web
    ```
 
 3. Install dependencies:
